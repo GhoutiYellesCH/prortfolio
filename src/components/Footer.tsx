@@ -31,7 +31,7 @@ export function Footer() {
             </p>
             <div className="flex gap-3">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/GhoutiYellesCH"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border border-[#00E0FF]/30 flex items-center justify-center text-[#00E0FF] hover:bg-[#00E0FF]/10 hover:border-[#00E0FF] transition-all"
@@ -40,7 +40,7 @@ export function Footer() {
                 <Github className="w-5 h-5" />
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/ghouti-yelles-chaouche"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border border-[#00E0FF]/30 flex items-center justify-center text-[#00E0FF] hover:bg-[#00E0FF]/10 hover:border-[#00E0FF] transition-all"
@@ -49,7 +49,7 @@ export function Footer() {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="https://twitter.com/yourusername"
+                href="https://x.com/GoutiY"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border border-[#00E0FF]/30 flex items-center justify-center text-[#00E0FF] hover:bg-[#00E0FF]/10 hover:border-[#00E0FF] transition-all"
@@ -97,14 +97,14 @@ export function Footer() {
             <h3 className="font-mono text-sm text-[#7FD3FF] tracking-wider">CONTACT</h3>
             <div className="space-y-3">
               <a
-                href="mailto:hello@yourname.dev"
+                href="mailto:ghouti.yells@engineer.com"
                 className="flex items-center gap-2 text-sm text-[#9AA6B2] hover:text-[#E6EEF6] transition-colors group"
               >
                 <Mail className="w-4 h-4 text-[#00E0FF]" />
                 <span>ghouti.yelles@engineer.com</span>
               </a>
               <a
-                href="#"
+                href="https://zcal.co/ghouti-yelles/30min"
                 className="flex items-center gap-2 text-sm text-[#9AA6B2] hover:text-[#E6EEF6] transition-colors group"
               >
                 <ExternalLink className="w-4 h-4 text-[#00E0FF]" />

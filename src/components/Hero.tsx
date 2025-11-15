@@ -87,7 +87,7 @@ export function Hero() {
               {/* Portrait container */}
               <div className="relative h-full rounded-lg overflow-hidden bg-[#0F1724] border border-[#00E0FF]/30">
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1755255020777-83bf9c8d70b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBlbmdpbmVlciUyMHBvcnRyYWl0JTIwYXJtcyUyMGNyb3NzZWR8ZW58MXx8fHwxNzYyNTQ5NDk2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+                  src='https://i.imgur.com/EDDBahx.png'
                   alt="Professional portrait - standing, arms crossed"
                   className="w-full h-full object-cover object-center"
                 />

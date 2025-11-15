@@ -24,7 +24,7 @@ export function IntroVideo() {
                   <button
                     onClick={() => {
                       // Open video in new tab or trigger lightbox
-                      window.open('https://youtube.com/watch?v=YOUR_VIDEO_ID', '_blank');
+                      window.open('https://www.youtube.com/@0xor1Day', '_blank');
                     }}
                     className="w-20 h-20 rounded-full bg-gradient-to-r from-[#2B50FF] to-[#6A00FF] flex items-center justify-center hover:scale-110 transition-transform duration-300 mx-auto shadow-[0_0_30px_rgba(43,80,255,0.6)] group-hover:shadow-[0_0_40px_rgba(43,80,255,0.8)]"
                   >
@@ -50,10 +50,10 @@ export function IntroVideo() {
             {/* Caption */}
             <div className="mt-4 flex items-start justify-between gap-4">
               <p className="text-[#9AA6B2]">
-                Intro — 90 seconds on what I build and why.
+                my channel on YouTube
               </p>
               <button
-                onClick={() => window.open('https://youtube.com/watch?v=YOUR_VIDEO_ID', '_blank')}
+                onClick={() => window.open('https://www.youtube.com/@0xor1Day', '_blank')}
                 className="flex items-center gap-2 text-[#00E0FF] hover:text-[#7FD3FF] transition-colors text-sm whitespace-nowrap"
               >
                 <ExternalLink className="w-4 h-4" />
@@ -68,9 +68,9 @@ export function IntroVideo() {
             
             <div className="space-y-4">
               {[
-                { label: 'Experience', value: '5+ years', detail: 'Building production systems' },
-                { label: 'Main Stacks', value: 'Rust • Python • JS', detail: 'Full-stack development' },
-                { label: 'Focus Areas', value: 'AI • Systems', detail: 'Research & automation' },
+                { label: 'Experience', value: '2 years', detail: 'Building production systems' },
+                { label: 'Main Stacks', value: 'Rust • Python • JS • C', detail: 'Full-stack development' },
+                { label: 'Focus Areas', value: 'AI • Systems • Cyber Security', detail: 'Research & automation' },
               ].map((fact, idx) => (
                 <div
                   key={idx}
@@ -87,7 +87,7 @@ export function IntroVideo() {
             <div className="mt-8 p-4 rounded-lg bg-[#0F1724] border border-[#2B50FF]/30 font-mono text-sm">
               <div className="text-[#7FD3FF] mb-2">$ stats --summary</div>
               <div className="text-[#9AA6B2] space-y-1">
-                <div>→ 50+ projects shipped</div>
+                <div>→ many projects shipped</div>
                 <div>→ 100k+ lines of code</div>
                 <div>→ ∞ cups of coffee</div>
               </div>

@@ -39,9 +39,8 @@ export function ServiceBlock({
 
   return (
     <section
-      className={`relative py-16 lg:py-24 ${
-        isEven ? 'bg-[#0B0F17]' : 'bg-[#0F1724]/30'
-      }`}
+      className={`relative py-16 lg:py-24 ${isEven ? 'bg-[#0B0F17]' : 'bg-[#0F1724]/30'
+        }`}
     >
       <div className="max-w-[1440px] mx-auto px-6 lg:px-12">
         {/* Section label */}
@@ -82,12 +81,20 @@ export function ServiceBlock({
 
             {/* CTA */}
             <button
-              onClick={() => onViewProjects ? onViewProjects(slug) : window.location.href = `/services/${slug}`}
+              onClick={() => {
+                window.scrollTo({ top: 0, behavior: "instant" });
+                if (onViewProjects) {
+                  onViewProjects(slug);
+                } else {
+                  window.location.href = `/services/${slug}`;
+                }
+              }}
               className="group flex items-center gap-2 px-6 py-3 rounded-lg border border-[#00E0FF]/30 text-[#00E0FF] hover:bg-[#00E0FF]/10 hover:border-[#00E0FF] transition-all duration-300 mt-6"
             >
               <span>Explore projects</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
+
           </div>
 
           {/* Right column - Preview carousel */}
@@ -98,9 +105,8 @@ export function ServiceBlock({
                 {thumbnails.map((thumb, idx) => (
                   <div
                     key={idx}
-                    className={`absolute inset-0 transition-opacity duration-500 ${
-                      idx === currentSlide ? 'opacity-100' : 'opacity-0'
-                    }`}
+                    className={`absolute inset-0 transition-opacity duration-500 ${idx === currentSlide ? 'opacity-100' : 'opacity-0'
+                      }`}
                   >
                     <ImageWithFallback
                       src={thumb}
@@ -138,11 +144,10 @@ export function ServiceBlock({
                     <button
                       key={idx}
                       onClick={() => setCurrentSlide(idx)}
-                      className={`w-2 h-2 rounded-full transition-all ${
-                        idx === currentSlide
+                      className={`w-2 h-2 rounded-full transition-all ${idx === currentSlide
                           ? 'bg-[#00E0FF] w-6'
                           : 'bg-[#9AA6B2]/50 hover:bg-[#9AA6B2]'
-                      }`}
+                        }`}
                     />
                   ))}
                 </div>

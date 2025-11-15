@@ -50,13 +50,19 @@ export function Navigation() {
               Home
             </button>
             <button
+              onClick={() => window.open('https://ghoutiyellesch.github.io/ghouti-blog/', '_blank')}
+              className="text-[#9AA6B2] hover:text-[#E6EEF6] transition-colors"
+            >
+              Blog
+            </button>
+            <button
               onClick={() => scrollToSection('projects')}
               className="text-[#9AA6B2] hover:text-[#E6EEF6] transition-colors"
             >
               Projects
             </button>
             <button
-              onClick={() => window.open('#courses-page', '_blank')}
+              onClick={() => window.open('https://a295-ghouti-yelles.systeme.io/school/course/linux-nerd', '_blank')}
               className="text-[#9AA6B2] hover:text-[#E6EEF6] transition-colors"
             >
               Courses
@@ -73,13 +79,13 @@ export function Navigation() {
           <div className="hidden lg:flex items-center gap-3">
             <button
               className="flex items-center gap-2 px-4 py-2 rounded-md border border-[#00E0FF]/30 text-[#00E0FF] hover:bg-[#00E0FF]/10 transition-all text-sm"
-              onClick={() => window.open('#ko-fi-page', '_blank')}
+              onClick={() => window.open('https://ko-fi.com/0xor1day', '_blank')}
             >
               Support
             </button>
             <button
               className="flex items-center gap-2 px-4 py-2 rounded-md border border-[#00E0FF]/30 text-[#00E0FF] hover:bg-[#00E0FF]/10 transition-all text-sm"
-              onClick={() => window.open('#', '_blank')}
+              onClick={() => window.open('https://limewire.com/d/tWsSC#9MGkBucZvY', '_blank')}
             >
               <Download className="w-4 h-4" />
               Resume
@@ -106,13 +112,19 @@ export function Navigation() {
                 Home
               </button>
               <button
+                onClick={() => window.open('https://ghoutiyellesch.github.io/ghouti-blog/', '_blank')}
+                className="text-left text-[#9AA6B2] hover:text-[#E6EEF6] transition-colors py-2"
+              >
+                Blog
+              </button>
+              <button
                 onClick={() => scrollToSection('projects')}
                 className="text-left text-[#9AA6B2] hover:text-[#E6EEF6] transition-colors py-2"
               >
                 Projects
               </button>
               <button
-                onClick={() => window.open('#courses-page', '_blank')}
+                onClick={() => window.open('https://a295-ghouti-yelles.systeme.io/school/course/linux-nerd', '_blank')}
                 className="text-left text-[#9AA6B2] hover:text-[#E6EEF6] transition-colors py-2"
               >
                 Courses
@@ -125,13 +137,13 @@ export function Navigation() {
               </button>
               <button
                 className="flex items-center gap-2 px-4 py-2 rounded-md border border-[#00E0FF]/30 text-[#00E0FF] hover:bg-[#00E0FF]/10 transition-all text-sm w-full justify-center mt-2"
-                onClick={() => window.open('#ko-fi-page', '_blank')}
+                onClick={() => window.open('https://ko-fi.com/0xor1day', '_blank')}
               >
                 Support Me
               </button>
               <button
                 className="flex items-center gap-2 px-4 py-2 rounded-md border border-[#00E0FF]/30 text-[#00E0FF] hover:bg-[#00E0FF]/10 transition-all text-sm w-full justify-center"
-                onClick={() => window.open('#', '_blank')}
+                onClick={() => window.open('https://limewire.com/d/tWsSC#9MGkBucZvY', '_blank')}
               >
                 <Download className="w-4 h-4" />
                 Resume
