@@ -91,7 +91,7 @@ export const projectsData: Project[] = [
     image: 'https://images.unsplash.com/photo-1717996563514-e3519f9ef9f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWIlMjBhcHBsaWNhdGlvbiUyMGludGVyZmFjZXxlbnwxfHx8fDE3NjI0NzYyNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080',
     technologies: ['Elastic Stack', 'Kibana', 'Logstash', 'IDS/IPS', 'SIEM'],
     featured: true,
-    createdAt: '2024-12-01',
+    createdAt: '2025-12-01',
   },
 ];
 
